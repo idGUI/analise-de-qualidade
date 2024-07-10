@@ -8,9 +8,9 @@
             Dado que estou na página de acesso da EBAC-SHOP
 
             Cenário: Autenticação com sucesso
-            Quando eu digitar o login válido "gui.cunha@ebac.com"
-            E senha válida "Senha@123"
-            Então deve redirecionar o usuário à página de "checkout"
+            Quando eu digitar o login válido
+            E senha válida
+            Então deve redirecionar o usuário à página de "Checkout"
 
             Cenário: Falha de autenticação
             Quando eu digitar o login inválido "joao@asdfg.com"
